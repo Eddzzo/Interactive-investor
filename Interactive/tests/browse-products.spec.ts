@@ -9,3 +9,4 @@ test("Browse and discover products", async ({ app }) => {
   await app.productsPage.expectSearchResults("Top");
   await expect(app.productsPage.navLink(/Cart/i)).toBeVisible();
 });
+ 
